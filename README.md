@@ -8,3 +8,8 @@ Exercise 16-2 is as follows: *The temperature scales on the Sitka and Death Vall
 I further challenged myself to add an additional file to the code (Sitka) to be able to compare both cities within the same program and plot.
 
 The files within this repository are as follows:
+`sitka_death_valley_compairson.py` - The main executable file for this program. Contains the code that reads through each files, stores the needed data in lists, and then plots them using Matplotlib.
+`sitka_weather_2018.csv` - The source of data for Sitka.
+`death_valley_2018_simple.csv` - The source of data for Death Valley.
+
+**NOTE:** For the code to work as is, the data files should be added into a folder 'data' in the same directory the executable python file is stored. If this should be avoided, remove `data/` from both filenames in the Python in the file.
